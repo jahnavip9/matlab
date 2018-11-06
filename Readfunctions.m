@@ -42,5 +42,3 @@ cp= readtable(filename,'readvariablenames',true);
 
 filename = 'fred-base.csv';
 base= readtable(filename,'readvariablenames',true);
-
-%% task2
