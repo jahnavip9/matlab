@@ -1,33 +1,61 @@
-n=unrate.Value;
-d=unrate.Date;
-colorplot(n,d)
+n=unrate;
+colorplot(n)
 title('FRED-UNRATE');
 
+
 figure;
-n=totci.Value;
-d=totci.Date;
-colorplot(n,d)
+n=totci;
+colorplot(n)
 title('FRED-TOTCI');
 
 
 figure;
-n=indpro.Value;
-d=indpro.Date;
-colorplot(n,d)
+n=indpro;
+colorplot(n)
 title('FRED-INDPRO');
 
 
 figure;
-n=gfdeg.Value;
-d=gfdeg.Date;
-colorplot(n,d)
+n=gfdeg;
+colorplot(n)
 title('FRED-GFDEDQ188S');
 
 figure;
-n=gdp.Value;
-d=gdp.Date;
-colorplot(n,d)
+n=gdp;
+colorplot(n)
 title('FRED-GDP');
+
+figure;
+n=dtwexm;
+colorplot(n)
+title('FRED-DTWEXM');
+
+figure;
+n=dspic;
+colorplot(n)
+title('FRED-DSPIC96');
+
+figure;
+n=dff;
+colorplot(n)
+title('FRED-DFF');
+
+figure;
+n=dcoilwt;
+colorplot(n)
+title('FRED-DCOILWTICO');
+
+figure;
+n=cpiaucsl;
+colorplot(n)
+title('FRED-CPIAUCSI');
+
+figure;
+n=cp;
+colorplot(n)
+title('FRED-CP');
+
+
 
 figure;
 n=dtwexm.Value;
