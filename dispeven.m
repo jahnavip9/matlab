@@ -1,5 +1,5 @@
-%% function for displaying even numbers using loops and conditions
-function dispeven(x1,n,x2) 
+%function for displaying even numbers using loops and conditions
+function [num]=dispeven(x1,n,x2)
 %%dispeven displays all the even numbers between specific range
 % INPUTS : 
 %        x1 - starting range
@@ -8,6 +8,5 @@ function dispeven(x1,n,x2)
 %OUTPUT :
 %        t  - gives the even numbers between the range with a specific
 %        interval
-t=x1:n:x2;
-disp(t)
+num=x1:n:x2;
 end
